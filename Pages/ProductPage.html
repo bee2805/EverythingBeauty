@@ -13,16 +13,18 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
 
     <!-- TITLE -->
-    <title>Everything Beauty | Products</title>
+    <title>Everything Beauty</title>
 
     <!-- JS Link -->
-    <script src="index.js"></script>
+    <script src="../js/index.js"></script>
 
     <!-- CSS link -->
+    <script src="css/main.css"></script>
+    <script src="css/_root.scss"></script>
 </head>
 <body>
-
-    <!-- navbar -->
+    
+    <!-- NavBar -->
     <nav class="overflow-hidden navbar navbar-expand-xl navbar-light bg-light px-5 ">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +40,7 @@
                         <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page">Products</a>
+                        <a class="nav-link" href="Products.html">Products</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="FeedbackPage.html">Feedback</a>
@@ -52,22 +54,28 @@
         </div>
     </nav> <!-- navbar -->
 
-    <!-- content-container -->
-    <h1 class="text-center pt-5">Explore Our Products</h1>
-    <h5 class="text-center pt-4 px-5">We have a wide range of products that you can look through! Browse all your favorite cosmetic products from foundation to nail polish.</h5>
+    <h1 class="text-center pt-5">Explore Through Brands!</h1>
+    <h5 class="text-center pt-4 px-5 mb-5">Filter through your favorite Brands! We know that finding your favorite products by your favorite band can sometimes be difficult if you dont know the name of the product. We aim to make browsing through your top products easier!</h5>
 
-    <div class="row justify-content-center px-5 pt-5">
+    <select class="btn-dark px-3 py-2 rounded mx-5 mt-5" name="" id="">
+        <option value="brand">All Brands</option>
+        <option value="brand">Almay</option>
+        <option value="brand">Benefit</option>
+        <option value="brand">Clinique</option>
+        <option value="brand">Dior</option>
+        <option value="brand">elf</option>
+        <option value="brand">Lóreal</option>
+        <option value="brand">Maybelline</option>
+        <option value="brand">Revlon</option>
+        <option value="brand">Smashbox</option>
+        <option value="brand">Wet n Wild</option>
+    </select>
 
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html"><div>Blush</div></a>
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html"><div>Bronzer</div></a>
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html"><div>Eyebrows</div></a>
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html"><div>Eyeliner</div></a>
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html"><div>Eyeshadow</div></a>
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html"><div>Foundation</div></a>
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html"><div>Lipstick</div></a>
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html"><div>Lip Liner</div></a>
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html"><div>Mascara</div></a>
-        <a class="col-lg-2 col-md-4 com-sm-8 m-2 p-4 bg-light rounded product" href="ProductPage.html">Nailpolish</div></a>
+    <div class="row products p-5">
+        <div class="col-lg-2 bg-light rounded border productCard">
+            <img class="img-fluid" src="../Img/almayLogo.png" alt="">
+            <h5>Product Name</h5>
+            <p>A description of the product here</p>
+        </div>
     </div>
-    
 </body>
