@@ -2,5 +2,8 @@
     background-image: url("./Img/MissionImg.jpg");
     background-position: center;
     background-size: contain;
-    
-}
+};
+
+.filter{
+    background-color: #2b2b2b;
+};
