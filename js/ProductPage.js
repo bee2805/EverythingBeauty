@@ -1,6 +1,18 @@
 $(function(){
     // var btn = $('#button');
 
+    // var myVar;
+
+    // function myFunction() {
+    //     myVar = setTimeout(showPage, 3000);
+    // }
+
+    // function showPage() {
+    //     document.getElementById("loader").style.display = "none";
+    //     document.getElementById("myDiv").style.display = "block";
+    // }
+    
+
     const baseURL = 'http://makeup-api.herokuapp.com/api/v1/products.json'
     const benefit = baseURL + '?brand=benefit';
     const clinique = baseURL + '?brand=clinique';
@@ -11,6 +23,11 @@ $(function(){
     const smashbox = baseURL + '?brand=smashbox';
 
     $.getJSON(baseURL,function(data){
+
+        // $(window).load(function() {
+        //     $('#loading').hide();
+        // });
+
         for(i=0; i < data[i].brand; i++){
             $(".filterOptions").append(`
                 <select name="" class="btn btn-dark justify-content-center" id="">

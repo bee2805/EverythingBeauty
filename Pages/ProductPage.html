@@ -29,9 +29,19 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-GEYLBEZ5W2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GEYLBEZ5W2');
+    </script> -->
+
 </head>
 <body>
-    
+
     <!-- NavBar -->
     <nav class="overflow-hidden navbar navbar-expand-xl navbar-light bg-light px-5 ">
         <div class="container-fluid">
@@ -70,50 +80,58 @@
 
     <div class="row px-5 pb-5 justify-content-center">
         <div class="col-lg-12 Filters text-center">
-            <a href="#ben"><button class="btn-dark rounded">Benefit</button></a>
-            <a href="#clin"><button class="btn-dark rounded">Clinique</button></a>
-            <a href="#di"><button class="btn-dark rounded">Dior</button></a>
-            <a href="#may"><button class="btn-dark rounded">Maybelline</button></a>
-            <a href="#n"><button class="btn-dark rounded">nyx</button></a>
-            <a href="#rev"><button class="btn-dark rounded">Revlon</button></a>
-            <a href="#smash"><button class="btn-dark rounded">Smashbox</button></a>
+            <a href="#ben"><button class="btn-dark m-b-3 rounded">Benefit</button></a>
+            <a href="#clin"><button class="btn-dark m-b-3 rounded">Clinique</button></a>
+            <a href="#di"><button class="btn-dark m-b-3 rounded">Dior</button></a>
+            <a href="#may"><button class="btn-dark m-b-3 rounded">Maybelline</button></a>
+            <a href="#n"><button class="btn-dark m-b-3 rounded">nyx</button></a>
+            <a href="#rev"><button class="btn-dark m-b-3 rounded">Revlon</button></a>
+            <a href="#smash"><button class="btn-dark m-b-3 rounded">Smashbox</button></a>
         </div>
     </div>
 
-    <h2 class="m-t-4 text-center" id="ben">Benefit</h2>
-    <div class="row benefit justify-content-center m-0" id="benefit" style="width: 100%;">
-        <!-- append function -->
+    <!-- <div class="justify-content-center" id="loading">
+        <img id="#loading-image" src="../Img/1484.gif" alt="loader">
+    </div> -->
+
+    <div class="container-fluid p-0" id="myDiv">
+        <h2 class="m-t-4 text-center" id="ben">Benefit</h2>
+        <div class="row benefit justify-content-center m-0" id="benefit" style="width: 100%;">
+            <!-- append function -->
+        </div>
+
+        <h2 class="text-center" id="clin">Clinique</h2>
+        <div class="row clinique justify-content-center" id="clinique" style="width: 100%;">
+            <!-- append function -->
+        </div>
+
+        <h2 class="text-center" id="di">Dior</h2>
+        <div class="row dior justify-content-center" id="dior" style="width: 100%;">
+            <!-- append function -->
+        </div>
+
+        <h2 class="text-center" id="may">Maybelline</h2>
+        <div class="row maybelline justify-content-center" id="maybelline" style="width: 100%;">
+            <!-- append function -->
+        </div>
+
+        <h2 class="text-center" id="n">nyx</h2>
+        <div class="row nyx justify-content-center" id="nyx" style="width: 100%;">
+            <!-- append function -->
+        </div>
+
+        <h2 class="text-center" id="rev">Revlon</h2>
+        <div class="row revlon justify-content-center" id="revlon" style="width: 100%;">
+            <!-- append function -->
+        </div>
+
+        <h2 class="text-center" id="smash">Smashbox</h2>
+        <div class="row smashbox justify-content-center" id="smashbox" style="width: 100%;">
+            <!-- append function -->
+        </div>
     </div>
 
-    <h2 class="text-center" id="clin">Clinique</h2>
-    <div class="row clinique justify-content-center" id="clinique" style="width: 100%;">
-        <!-- append function -->
-    </div>
-
-    <h2 class="text-center" id="di">Dior</h2>
-    <div class="row dior justify-content-center" id="dior" style="width: 100%;">
-        <!-- append function -->
-    </div>
-
-    <h2 class="text-center" id="may">Maybelline</h2>
-    <div class="row maybelline justify-content-center" id="maybelline" style="width: 100%;">
-        <!-- append function -->
-    </div>
-
-    <h2 class="text-center" id="n">nyx</h2>
-    <div class="row nyx justify-content-center" id="nyx" style="width: 100%;">
-        <!-- append function -->
-    </div>
-
-    <h2 class="text-center" id="rev">Revlon</h2>
-    <div class="row revlon justify-content-center" id="revlon" style="width: 100%;">
-        <!-- append function -->
-    </div>
-
-    <h2 class="text-center" id="smash">Smashbox</h2>
-    <div class="row smashbox justify-content-center" id="smashbox" style="width: 100%;">
-        <!-- append function -->
-    </div>
+    
 
     
 </body>
