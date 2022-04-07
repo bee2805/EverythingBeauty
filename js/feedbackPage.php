@@ -7,6 +7,6 @@ if(isset($_POST['submit'])){
 
     mail($to,$subject,$message);
 
-    header('Location: https://everythingbeautyapp.co.za'); // you can add a thank you page if you like, this redirects to home
+    header('Location: https://everythingbeautyapp.co.za/index.html'); // you can add a thank you page if you like, this redirects to home
     }
 ?>
